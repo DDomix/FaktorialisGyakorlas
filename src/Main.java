@@ -40,5 +40,11 @@ public class Main {
             }
         }
     }
-    
+    public static int lofasz(int min,int max){
+        int gondoltszam= (int) (Math.random()*max+min);
+        while (gondoltszam>min && gondoltszam<max){
+            max=max/2;
+        }
+        return 0;
+    }
 }
